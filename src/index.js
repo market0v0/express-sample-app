@@ -5,8 +5,8 @@ app.get('/', (req, res) => {
   res.send('Choo Choo! Welcome to your Express app 🚅')
 })
 
-app.get('/ mark', (req, res) => {
-  res.send('Choo Choo! Welcome to your Express app 🚅')
+app.get('/mark', (req, res) => {
+  res.send('check')
 })
 
 app.get('/json', (req, res) => {
